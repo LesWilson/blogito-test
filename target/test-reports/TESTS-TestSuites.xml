@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="Les-PC" id="0" name="UnderscoreCodecTests" package="blogito" tests="2" time="0.141" timestamp="2012-04-20T22:06:41">
+      <properties />
+
+      <testcase classname="blogito.UnderscoreCodecTests" name="testEncode" time="0.094" />
+
+      <testcase classname="blogito.UnderscoreCodecTests" name="testDecode" time="0.0" />
+
+      <system-out><![CDATA[--Output from testEncode--
+--Output from testDecode--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testEncode--
+--Output from testDecode--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
