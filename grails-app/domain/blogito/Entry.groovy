@@ -10,7 +10,7 @@ class Entry {
 	Date lastUpdated
 	
     static constraints = {
-		title()
+		title(blank:false)
 		summary(maxSize:1000)
 		filename(blank:true, nullable:true)
 		dateCreated()

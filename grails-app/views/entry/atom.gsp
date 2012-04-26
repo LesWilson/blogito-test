@@ -7,9 +7,7 @@
   <author><name>Blogito.org</name></author>
   <id>tag:blogito.org,2012-04-22:entry/atom</id>
   <generator uri="http://blogito.org" version="0.1">Hand-rolled Grails code</generator>
-
   <g:each in="${entryInstanceList}" status="i" var="entryInstance">
     <g:render template="atomEntry" bean="${entryInstance}" var="entryInstance" />
   </g:each>
-
 </feed>
